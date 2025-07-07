@@ -1,3 +1,6 @@
+if (!e.done) {
+e.done = true;
+
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -137,24 +140,93 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 209,
+        "pk": 212,
         "fields": {
             "first_name": "Wesley",
             "last_name": "Clark",
             "election": 20,
             "party": "Democratic",
-            "state": "N/A",
+            "state": "Arkansas",
             "priority": 9,
             "description": "'",
             "color_hex": "#85ada4",
             "secondary_color_hex": "#90C0FF",
             "is_active": 0,
-            "image_url": "https://numbers-station.neocities.org/image-stuff/mary.jpeg",
+            "image_url": "https://i.imgur.com/xh3nZph.gif",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
             "description_as_running_mate": "<i>\"If the Clinton coalition had been on life support four years prior, it's now dead and buried.\"</i>\n<p>Wesley Clark was initially hailed as the Democratic savior, the solution to Bush's disaster. He now oversees a nation plagued by institutional rot. Since his vision was vindicated by the American people once again, he has dedicated his time to not only saving his fellow countrymen but also saving the world. \n<p>\nCaught between picking fights with bankers who attempt to take advantage of the pooled taxpayer money to save their interests and preaching a new global economic alliance to combat the recession at WEF summits, the visionary president has yet to achieve his goal of a united global economic vision. After a decisive rebuke of Democrats in the 2010 midterms, his mandate and the vision he wishes to continue are now on the shoulders of his loyal vice president, tasked with reviving this dying dog of a coalition or putting it out of its misery.",
             "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 209,
+        "fields": {
+            "first_name": "Ned",
+            "last_name": "Lamont",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Connecticut",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#85ada4",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/F2XwOTw.pngg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Ned Lamont emerged as the boy wonder of the anti-war movement, and perhaps no political victory defines the president's legacy than pulling him to win over Senator Joe Lieberman. Since that dazzling start, the junior Senator has established himself as a moderate liberal, much to the disappointment of the people who got him there.</p><p>Lamont is Clark's preferred choice for the role. His presence on the ticket would ease concerns about your foreign policy credentials. However, Lamont may struggle to resonate with the party's populist wing. A successful businessman, Lamont has often aligned with corporate interests over those of organized labor, which could harm your relationship with those demanding sweeping change.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 210,
+        "fields": {
+            "first_name": "Sherrod",
+            "last_name": "Brown",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Ohio",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/mXewI7W.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Sherrod Brown is the progressive stalwart that many in your camp see as the only candidate capable of galvanizing the Sanders base. As a sitting senator from Ohio, his selection would cost you a crucial vote that you likely won't get back. But at this stage, retaking the Senate already seems out of reach.</p><p>Choosing Brown would effectively sever ties with the Clinton-era coalition, especially in the South. That political machinery would be forever lost, leaving you to chart a new winning strategy on your own. It's a Hail Mary to choose him, but this campaign needs one.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 211,
+        "fields": {
+            "first_name": "Barack",
+            "last_name": "Obama",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Illinois",
+            "priority": 1,
+            "description": "<p>No one in the political spectrum is considered more of a rising star than Barack Obama. The former Senator of Illinois, now Governor, has redefined his national image as a principled reformer, taking on the entrenched Blagojevich machine and emerging as a symbol of integrity in an era of cynicism. Still sporting his trademark inspirational rhetoric and campaign style, he's the forward-thinking politician most of America adores.</p><p>Selecting him would complicate your standing in the South, but he remains the top choice for most of your advisors, as he strikes the perfect balance of progressive rhetoric and pragmatic policy. Clark may find an issue with the idea of elevating one of his more outspoken critics to your side, but his political influence is fading, and this campaign needs forward momentum.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/ygjp8GS.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>No one in the political spectrum is considered more of a rising star than Barack Obama. The former Senator of Illinois, now Governor, has redefined his national image as a principled reformer, taking on the entrenched Blagojevich machine and emerging as a symbol of integrity in an era of cynicism. Still sporting his trademark inspirational rhetoric and campaign style, he's the forward-thinking politician most of America adores.</p><p>Selecting him would complicate your standing in the South, but he remains the top choice for most of your advisors, as he strikes the perfect balance of progressive rhetoric and pragmatic policy. Clark may find an issue with the idea of elevating one of his more outspoken critics to your side, but his political influence is fading, and this campaign needs forward momentum.</p>",
+            "candidate_score": 1,
             "running_mate": true
         }
     }
@@ -163,10 +235,34 @@ campaignTrail_temp.candidate_json = [
 campaignTrail_temp.running_mate_json = [
     {
         "model": "campaign_trail.running_mate",
+        "pk": 1550,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 212
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
         "pk": 155,
         "fields": {
             "candidate": 201,
             "running_mate": 209
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 127036,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 210
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 124098,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 211
         }
     }
 ]
@@ -209,20 +305,16 @@ campaignTrail_temp.temp_election_list = [
 jet_data = {
     "headerColor": "#ffffff",
     "windowColor": "#ececec",
-    "containerColor": "#a2a0bc",
-    "innerWindowColor": "#a2a0bc",
-    "bannerImageUrl": "https://numbers-station.neocities.org/image-stuff/CLARK08.png",
+    "containerColor": "#151113",
+    "innerWindowColor": "#151113",
+    "bannerImageUrl": "https://i.imgur.com/sRcoa8R.gif",
     "backgroundImageUrl": "https://media.newyorker.com/photos/614e494ea157132803b0a11e/16:9/w_2560,h_1440,c_limit/Blitzer-StuckinAfghanistan.jpg",
     "endingTextColor": "#000000",
     "customQuote": "",
     "gameTitle": "The Ballot Of Blue Dog Mary"
 }
 
-
-
-
 //#startcode
-
 
 
 corrr = '\n              <h2>The Ballot Of Blue Dog Mary</h2>\n            ';
@@ -236,13 +328,13 @@ document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_st
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-$(".container")[0].style.backgroundColor = "#a2a0bc";
+$(".container")[0].style.backgroundColor = "#151113";
 
-document.getElementById("header").src = "https://numbers-station.neocities.org/image-stuff/CLARK08.png";
+document.getElementById("header").src = "https://i.imgur.com/sRcoa8R.gif";
 
 document.body.background = "https://media.newyorker.com/photos/614e494ea157132803b0a11e/16:9/w_2560,h_1440,c_limit/Blitzer-StuckinAfghanistan.jpg";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#a2a0bc!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#151113!important;}</style>";
 
 //#endcode
 
@@ -253,3 +345,25 @@ corrr = `
     </h2>
   </div>
   `;
+
+styling = document.createElement("style");
+document.head.appendChild(styling);
+
+styling.innerHTML = `
+#opponent_selection_id_back {
+    display: none;
+}
+`
+
+let z = new MutationObserver((mutationsList, observer) => {
+    let runningMateSummary = document.querySelector("#running_mate_summary");
+    if (runningMateSummary) {
+        $("#running_mate_id_button").click();
+        observer.disconnect()
+    }
+});
+
+
+z.observe(document, { subtree: true, childList: true });
+
+}
