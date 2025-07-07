@@ -1,0 +1,255 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "summary": "A mandate on the run, the American people kidnapped by partisan kooks in the house, and a president who has stewarded over difficult times with failures both at home and abroad. President Wesley K. Clark was reelected against former Vice President Dick Cheney in a stunning upset during countrywide pandemonium.\n<p>\nAlmost three years into his second term, Republicans hold both chambers of Congress and have built a labyrinth from here to the 2012 election. This effort is in hopes that Vice President Landrieu will fail to find her way to the castle and finally end this eight-year-running Democratic joke.</p> <p>Will Landrieu find her way to a term of her own or be consumed by the maze walls surrounding her perilous journey?\n",
+            "image_url": "https://i.imgur.com/cd9iVxH.gif",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://archive-images.prod.global.a201836.reutersmedia.net/2011/01/21/2011-01-21T205506Z_02_RP3DRIAUTWAA_RTRRPP_0_IRAQ.JPG",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Articles</h4>FiveThirtyEight - <a href=\"http://projects.fivethirtyeight.com/2016-swing-the-election/\" target=\"_blank\"> What Would It Take To Turn Blue States Red?</a></br><a href=\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don’t Be So Sure.</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\" target=\"_blank\">Hard Choices</a></br>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\" target=\"_blank\">Living History</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\" target=\"_blank\">Crippled America: How to Make America Great Again</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\" target=\"_blank\">The Art of the Deal</a></br>\nGary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "2012 The Ballot Of Blue Dog Mary"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "Mary",
+            "last_name": "Landrieu",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Louisiana",
+            "priority": 2,
+            "description": "<p>Mary Landrieu is not a new and exciting face on the political scene. That glory of the first female major party nominee was robbed because her face has remained at the edge of the frame for the last four years. Beyond the low enthusiasm for her candidacy also lies that she's a political bench warmer destined to fail so that the real political icon Hillary Clinton can take her seat on the throne in 4 years.\n<p>Ideologically, she's no more appealing than any other Democrat. She rarely makes thought-provoking speeches and refuses to stray too far from the standard party line since her first senate victory in the 90s. She doesn't even collect the scorn of the opposition; she's merely a face that the American people are indifferent toward. In a world where some religiously follow the incumbent president's word while others find everything he speaks revolting, she has made herself nobody's greatest enemy. But at the same time, it sucks to be nobody's favorite person.",
+            "color_hex": "#595b91",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/e6jIxM2.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "David",
+            "last_name": "Petraeus",
+            "election": 20,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 3,
+            "description": "<p>The nominee, by acclamation, it's almost as if King David Petraeus holds a crystal ball that tells him precisely what the American people desire. His resume is built by a long and proven career fighting the wars in the Middle East under President Clark. Often clashing with the President, Petraeus resigned his post in Afghanistan to set up his run for President.\n<p>Seizing on the opportunity of a lifetime, Petraeus quickly rose through the Republican ranks to become their nominee. Now, with a confident smirk, he can easily kick the Clark Administration down the road, knowing circumstances weigh in his favor 10-1. By all means, he has already won this race.",
+            "color_hex": "#b3001b",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/a9L1Q8l.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "Christian  ",
+            "last_name": "Paranoid Maniacs",
+            "election": 20,
+            "party": "Libertarians",
+            "state": "N/A",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#b2b27b",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "Green",
+            "last_name": "Anti-war Firebrands",
+            "election": 20,
+            "party": "Green",
+            "state": "N/A",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#579457",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/mike-pence-2016.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Mike Pence is a former Congressman and the current Governor of Indiana. He is a popular figure among social conservatives and would help assuage concern about Trump among party insiders. He would add executive experience to the ticket and make few mistakes on the campaign trail, but he could also undercut Trump's outsider credentials.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 209,
+        "fields": {
+            "first_name": "Wesley",
+            "last_name": "Clark",
+            "election": 20,
+            "party": "Democratic",
+            "state": "N/A",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#85ada4",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://numbers-station.neocities.org/image-stuff/mary.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<i>\"If the Clinton coalition had been on life support four years prior, it's now dead and buried.\"</i>\n<p>Wesley Clark was initially hailed as the Democratic savior, the solution to Bush's disaster. He now oversees a nation plagued by institutional rot. Since his vision was vindicated by the American people once again, he has dedicated his time to not only saving his fellow countrymen but also saving the world. \n<p>\nCaught between picking fights with bankers who attempt to take advantage of the pooled taxpayer money to save their interests and preaching a new global economic alliance to combat the recession at WEF summits, the visionary president has yet to achieve his goal of a united global economic vision. After a decisive rebuke of Democrats in the 2010 midterms, his mandate and the vision he wishes to continue are now on the shoulders of his loyal vice president, tasked with reviving this dying dog of a coalition or putting it out of its misery.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 155,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 209
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Literally Nelson Rockefeller"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            201,
+            200,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            201,
+            200,
+            202,
+            203
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2012 The Ballot Of Blue Dog Mary"
+    }
+]
+
+jet_data = {
+    "headerColor": "#ffffff",
+    "windowColor": "#ececec",
+    "containerColor": "#a2a0bc",
+    "innerWindowColor": "#a2a0bc",
+    "bannerImageUrl": "https://numbers-station.neocities.org/image-stuff/CLARK08.png",
+    "backgroundImageUrl": "https://media.newyorker.com/photos/614e494ea157132803b0a11e/16:9/w_2560,h_1440,c_limit/Blitzer-StuckinAfghanistan.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "The Ballot Of Blue Dog Mary"
+}
+
+
+
+
+//#startcode
+
+
+
+corrr = '\n              <h2>The Ballot Of Blue Dog Mary</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#ffffff";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ececec";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#a2a0bc";
+
+document.getElementById("header").src = "https://numbers-station.neocities.org/image-stuff/CLARK08.png";
+
+document.body.background = "https://media.newyorker.com/photos/614e494ea157132803b0a11e/16:9/w_2560,h_1440,c_limit/Blitzer-StuckinAfghanistan.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#a2a0bc!important;}</style>";
+
+//#endcode
+
+corrr = `
+  <div style="font-size: 8px; font-family: monospace; color: white;">
+    <h2 style="font-style: normal;">
+      <img src="https://i.imgur.com/C1SKGBG.gif" alt="The Ballot Of Blue Dog Mary" style="margin-top: 11px;">
+    </h2>
+  </div>
+  `;
