@@ -202,7 +202,7 @@ campaignTrail_temp.questions_json = [
         "pk": 1073,
         "fields": {
             "priority": -3,
-            "description": "A leaked transcript from Wikileaks shows you saying in a closed-door speech at Goldman Sachs that you are \"center-left, center-right\" and that you support \"open trade and open borders\". How do you respond?",
+            "description": "Regardless of what Republicans like to make of the General's scandals, Petraeus remains an undeterred but now more cautious man. Refusing impromptu questions and avoiding unscripted events like the plague, it's clear he's lost his confident bravado. Sticking to scripts he finds hard to recite, with the campaign near its end, he needed a Hail Mary and has called upon the worst cretins in his party to stump for him across the country. While he attempts to unify, what will you do?",
             "likelihood": 1
         }
     },
@@ -410,6 +410,42 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 7,
             "description": "It feels like this labyrinth is a continuous path to defeat with no way out. Clark has sunk your chances by miles, and what isn't being crushed by his scathing ineptitude, the flat circumstances of this election continually change the layout of how you must run this campaign. Your running mate, Barack, walks into your chambers with an objective: save this campaign. He tells it to you straight: Clark is holding the campaign down, and you need to promise to run things much differently. The Blue Dog façade must fade away; you must campaign on a promise of change. Will you do it?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 21405,
+        "fields": {
+            "priority": 0,
+            "description": "Following your endorsement of Ukraine joining NATO, the Donbass and Crimea territories within the country have submitted formal demands to be either given further autonomy or allowed the free will to secede from Ukraine. Clark's already in gear to set the world to DEFCON 1 in case Putin gets frisky. However, he has offered you the opportunity to make your case and effectively take the reins in governing the free world. So, how will you advise President Tymoshenko at this hour?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 21418,
+        "fields": {
+            "priority": -5,
+            "description": "Assigned to the Vice President as her faithful compatriot to help lead her through the labyrinth and to a victory against King David, you've been delegated few but vital responsibilities–chief among them a solid performance at the Vice Presidential debate. Across from you stands Sharron Angle, the Constitutional Conservative firebrand, who doesn't waste a second to drop the lady-like behavior to get into the mud. She attacks you and your party for taking the country in a direction the founders had not intended. How do you respond?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 21431,
+        "fields": {
+            "priority": -5,
+            "description": "Assigned to the Vice President as her faithful compatriot to help lead her through the labyrinth and to a victory against King David, you've been delegated few but vital responsibilities–chief among them a solid performance at the Vice Presidential debate. The ideological divide between you and Sharron Angle is far and wide, and she takes advantage of that by going for what she believes is the throat of socialism. So, how will you deal with the demagogue of Nevada?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 21467,
+        "fields": {
+            "priority": 7,
+            "description": "Following your endorsement of Ukraine joining NATO, the Donbass and Crimea territories within the country have submitted formal demands to be either given further autonomy or allowed the free will to secede from Ukraine. Clark's already in gear to set the world to DEFCON 1 in case Putin gets frisky. However, he has offered you the opportunity to make your case and effectively take the reins in governing the free world. So, how will you advise President Tymoshenko at this hour?\n",
             "likelihood": 1
         }
     }
@@ -813,7 +849,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5250,
         "fields": {
             "question": 1073,
-            "description": "This is a gross misrepresentation of my statements. I was speaking hypothetically about the future 40 or 50 years from now. And I would remind you that these statements were most likely leaked by Russian intelligence."
+            "description": "If the Republican machine is allowed to regain its footing, it could very well carry Petraeus to victory if we aren't careful. Division has already been sown in their ranks, all we need to do is press on with his record of conservatism, or lack thereof."
         }
     },
     {
@@ -821,7 +857,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5251,
         "fields": {
             "question": 1073,
-            "description": "If we look back to the days of Abraham Lincoln, one of our greatest leaders, he said that sometimes you need to have a public position and a private position on some issues to drive true progress."
+            "description": "Forget Petraeus, what I need is for my party to believe in me. The DNC is attempting to withhold all it can from me just to save down-ballot democrats, but I'm the favorite in this race now, and it's time they gave me the nod."
         }
     },
     {
@@ -829,7 +865,7 @@ campaignTrail_temp.answers_json = [
         "pk": 5252,
         "fields": {
             "question": 1073,
-            "description": "This is nothing compared to the lies and equivocation of Donald Trump. And furthermore, it's appalling that Republicans are so willing to throw aside all ideals and cooperate with the Russians, the moment it's convenient for them."
+            "description": "Double down on what matters, the economy. Minimum wage, workers' rights, and further banking reform are necessary to prevent the recession we experienced from happening again. Most importantly, the working class will be able to have a wage that allows them to thrive."
         }
     },
     {
@@ -1014,14 +1050,6 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 1077,
             "description": "The situation in Donetsk is deteriorating. We are seeing pro-Russian separatists gaining momentum and even word that the local police departments are joining them in this cause. I propose working closely with Yulia Tymoshenko to crack down on separatist movements."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 20827,
-        "fields": {
-            "question": 1077,
-            "description": "Playing hardball with Putin has only led to humiliation time and time again. While I hold no illusions about Russian motivations, what I do know is that the people of Donbass are scared and simply need a careful and guiding hand. I intend to work closely with President Tymoshenko to reach a mutually beneficial agreement for all parties involved."
         }
     },
     {
@@ -1349,7 +1377,7 @@ campaignTrail_temp.answers_json = [
         "pk": 21179,
         "fields": {
             "question": 21178,
-            "description": "I know I dress like the guys at State Farm, but I can't take this attack to heart. Walker spends more time copying up with the Koch Brothers and other big-money donors than the people who elected him."
+            "description": "I know I dress like the guys at State Farm, but I can't take this attack to heart. Walker spends more time bumping shoulders with the Koch Brothers and other big-money donors than the people who elected him."
         }
     },
     {
@@ -1598,6 +1626,110 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 21386,
             "description": "My father was a brave man who left a daring legacy of desegregation in the South at a time when it was dangerous to do so. Let's film a few father-daughter sit-down advertisements with him describing his crusade against segregation in the 1970s."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21406,
+        "fields": {
+            "question": 21405,
+            "description": "Compromise is a scary word to many, but to me, it's the lifeline keeping the world turning. Tymoshenko should listen to the territories and act with caution to prevent Putin from feeling uneasy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21410,
+        "fields": {
+            "question": 21405,
+            "description": "Putin is connected to this quasi rebellion, and we cannot allow it to continue growing steam if we want to secure Ukraine's territorial integrity. Tell Tymoshenko that she has our unconditional support to crack down on the descent in the east."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21414,
+        "fields": {
+            "question": 21405,
+            "description": "Perhaps it was a bit bold to assume that all of Ukraine wanted to join NATO. Let us roll back our goals to EU admission first to get our feet wet. That way, everyone's happy, and we avoid whatever mess could arise from this."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21419,
+        "fields": {
+            "question": 21418,
+            "description": "It's essential to acknowledge the efforts the administration has made in preserving the livelihoods of millions of Americans through stimulus measures. And while there is still so much more to do, Senator Angle is more interested in spiritually healing America than anything else."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21423,
+        "fields": {
+            "question": 21418,
+            "description": "Our founders understood that in the face of hardship, one must sometimes sacrifice certain political norms to tackle the challenges head-on. Washington and Jefferson understood this, and so did the Democratic Party. So, no, I will not apologize for the president stepping in to help solve a crisis."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21427,
+        "fields": {
+            "question": 21418,
+            "description": "We have a choice between demagoguery and stability: continuity or division. The American people chose the Democratic Party's solutions to combat the recession because we stood for what was sensible."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21432,
+        "fields": {
+            "question": 21431,
+            "description": "Hard work should pay off for everyone; it's that simple. Senator Angle may want to label it socialism, but the Democratic Platform aims to ensure that every hard-working American can find a good job that supports their livelihood."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21436,
+        "fields": {
+            "question": 21431,
+            "description": "Hate has no place in America. When we invest in our workers, we build up a stronger economy. When we defend the rights of those coming here, we are building a greater America. Senator Angle's blame Mexicans platform is unacceptable."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21440,
+        "fields": {
+            "question": 21431,
+            "description": "America needs more uniters and fewer dividers like Senator Sharron, who has openly stated that if her ideological war horse were to fail, then conservatives should take their arms and start a full-scale civil war."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21460,
+        "fields": {
+            "question": 1073,
+            "description": "There's a large number of independents lacking a party to identify with. Let's fight from the middle on what matters to them. My platform offers numerous tax exemptions and credits for small businesses."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21468,
+        "fields": {
+            "question": 21467,
+            "description": "Compromise is a scary word to many, but to me, it's the lifeline keeping the world turning. Tymoshenko should listen to the territories and act with caution to prevent Putin from feeling uneasy. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21472,
+        "fields": {
+            "question": 21467,
+            "description": "Putin is connected to this quasi rebellion, and we cannot allow it to continue growing steam if we want to secure Ukraine's territorial integrity. Tell Tymoshenko that she has our unconditional support to crack down on the descent in the east."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21476,
+        "fields": {
+            "question": 21467,
+            "description": "Perhaps it was a bit bold to assume that all of Ukraine wanted to join NATO. Let us roll back our goals to EU admission first to get our feet wet. That way, everyone's happy, and we avoid whatever mess could arise from this."
         }
     }
 ]
@@ -7087,7 +7219,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5251,
             "candidate": 201,
             "affected_candidate": 200,
-            "global_multiplier": 0.0275
+            "global_multiplier": 0.02
         }
     },
     {
@@ -7398,36 +7530,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 200,
             "global_multiplier": -0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3325,
-        "fields": {
-            "answer": 5235,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3326,
-        "fields": {
-            "answer": 5236,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3328,
-        "fields": {
-            "answer": 5237,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.015
         }
     },
     {
@@ -7748,16 +7850,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 201,
             "affected_candidate": 200,
             "global_multiplier": -0.009
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 20889,
-        "fields": {
-            "answer": 20885,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": 0.005
         }
     },
     {
@@ -8509,6 +8601,136 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 200,
             "global_multiplier": -0.015
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21408,
+        "fields": {
+            "answer": 21406,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.007
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21412,
+        "fields": {
+            "answer": 21410,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.019
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21416,
+        "fields": {
+            "answer": 21414,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21421,
+        "fields": {
+            "answer": 21419,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21425,
+        "fields": {
+            "answer": 21423,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21429,
+        "fields": {
+            "answer": 21427,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21434,
+        "fields": {
+            "answer": 21432,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21438,
+        "fields": {
+            "answer": 21436,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21442,
+        "fields": {
+            "answer": 21440,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21462,
+        "fields": {
+            "answer": 21460,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21470,
+        "fields": {
+            "answer": 21468,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21474,
+        "fields": {
+            "answer": 21472,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.009
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21478,
+        "fields": {
+            "answer": 21476,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.009
+        }
     }
 ]
 
@@ -9080,16 +9302,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 20826,
             "issue": 102,
             "issue_score": -0.7,
-            "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 20837,
-        "fields": {
-            "answer": 20827,
-            "issue": 100,
-            "issue_score": -0.5,
             "issue_importance": 2
         }
     },
@@ -10030,6 +10242,156 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 21391,
             "issue": "100",
             "issue_score": -0.6,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21409,
+        "fields": {
+            "answer": 21406,
+            "issue": 103,
+            "issue_score": 0.6,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21413,
+        "fields": {
+            "answer": 21410,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21417,
+        "fields": {
+            "answer": 21414,
+            "issue": 100,
+            "issue_score": 0.6,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21422,
+        "fields": {
+            "answer": 21419,
+            "issue": 104,
+            "issue_score": 0.6,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21426,
+        "fields": {
+            "answer": 21423,
+            "issue": 104,
+            "issue_score": 0.4,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21430,
+        "fields": {
+            "answer": 21427,
+            "issue": 101,
+            "issue_score": 0.6,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21435,
+        "fields": {
+            "answer": 21432,
+            "issue": 101,
+            "issue_score": -0.6,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21439,
+        "fields": {
+            "answer": 21436,
+            "issue": 104,
+            "issue_score": 0.6,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21443,
+        "fields": {
+            "answer": 21440,
+            "issue": 102,
+            "issue_score": -0.6,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21449,
+        "fields": {
+            "answer": 5250,
+            "issue": 104,
+            "issue_score": -0.7,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21454,
+        "fields": {
+            "answer": 5252,
+            "issue": 101,
+            "issue_score": -0.6,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21463,
+        "fields": {
+            "answer": 21460,
+            "issue": 103,
+            "issue_score": 0.5,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21471,
+        "fields": {
+            "answer": 21468,
+            "issue": 102,
+            "issue_score": 0.3,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21475,
+        "fields": {
+            "answer": 21472,
+            "issue": 102,
+            "issue_score": -0.5,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21479,
+        "fields": {
+            "answer": 21476,
+            "issue": 103,
+            "issue_score": 0.5,
             "issue_importance": 6
         }
     }
@@ -12213,6 +12575,193 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 200,
             "state_multiplier": -0.015
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21444,
+        "fields": {
+            "answer": 21432,
+            "state": 1034,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21445,
+        "fields": {
+            "answer": 21432,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21446,
+        "fields": {
+            "answer": 21432,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21447,
+        "fields": {
+            "answer": 21436,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21448,
+        "fields": {
+            "answer": 21436,
+            "state": 1034,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21450,
+        "fields": {
+            "answer": 5251,
+            "state": 1034,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21451,
+        "fields": {
+            "answer": 5251,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21452,
+        "fields": {
+            "answer": 5251,
+            "state": 1032,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21453,
+        "fields": {
+            "answer": 5251,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21455,
+        "fields": {
+            "answer": 5252,
+            "state": 1034,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21456,
+        "fields": {
+            "answer": 5252,
+            "state": 1021,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21457,
+        "fields": {
+            "answer": 5252,
+            "state": 1013,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21458,
+        "fields": {
+            "answer": 5252,
+            "state": 1049,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21459,
+        "fields": {
+            "answer": 5252,
+            "state": 1022,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21464,
+        "fields": {
+            "answer": 21460,
+            "state": 1008,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21465,
+        "fields": {
+            "answer": 21460,
+            "state": 1003,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 21466,
+        "fields": {
+            "answer": 21460,
+            "state": 1032,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "state_multiplier": -0.02
+        }
     }
 ]
 
@@ -12565,7 +13114,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5250,
             "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
+            "answer_feedback": "At the end of the day, the winner will either be you or him, and to these voters, another four years of what they consider a socialist dictatorship isn't worth the risk of staying home, especially with Herman Cain and Mike Huckabee hitting the trail singing the General's praises."
         }
     },
     {
@@ -12574,7 +13123,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5251,
             "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
+            "answer_feedback": "Given the circumstances, it's hard for them to argue, although from outside the Oval, you hear Clark berated by Secretary Clinton, lamenting that your victory \"wasn't part of the deal.\" Clark stands by you, telling her to accept it and to continue in the Landrieu administration."
         }
     },
     {
@@ -12583,7 +13132,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 5252,
             "candidate": 201,
-            "answer_feedback": "After days of Trump's \"grab them by the pussy\" comments dominating the news, the story begins to move on to other things, not the least of which is these leaks."
+            "answer_feedback": "Compared to Petraeus, who only delivers lip service to working-class crowds, your platform looks like it was dipped in gold. While Constitutional Conservatives continue to portray you as Comrade Mary, the working people adore the new Mary Landrieu."
         }
     },
     {
@@ -12827,15 +13376,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 20826,
             "candidate": 201,
             "answer_feedback": "President Tymoshenko's policy has attempted to toe the line. Still, with your assurances, she begins ordering police crackdowns on the ‘People’s Army of Novorossiia’ with Russia now stepping on the gas to secure the potential breakaway provinces."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 20835,
-        "fields": {
-            "answer": 20827,
-            "candidate": 201,
-            "answer_feedback": "Your instincts prove correct. Proceeding with caution has helped cool tensions in Donbass, with the People's Army of Novorossiia experiencing a decline in local recruitment. Clark is frustrated by your shift in strategy, considering it a personal betrayal."
         }
     },
     {
@@ -13494,6 +14034,123 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "\"Moon\" Maurice Landrieu made history by desegregating the workforce, opening the door for African Americans to enter high-ranking jobs and contracts. The coalition he built that carried you to victory in 2002 and 1996 is dying, however, with your white support drifting downward in the South."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21407,
+        "fields": {
+            "answer": 21406,
+            "candidate": 201,
+            "answer_feedback": "Yulia, in turn, holds a conference with representatives from both regions, who primarily have concerns based on economic and cultural divisions. Although the talks do not come to an immediate conclusion, they end on a positive note."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21411,
+        "fields": {
+            "answer": 21410,
+            "candidate": 201,
+            "answer_feedback": "And crack down she does, but unlike your or Clark's expectations, Russia rams into Ukraine like a bull, citing the need to \"defend ethnic Russians from persecution.\" Tymoshenko finds her country under invasion while you head back to the campaign."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21415,
+        "fields": {
+            "answer": 21414,
+            "candidate": 201,
+            "answer_feedback": "Ukraine's entire top brass is left scuttled after your flip-flop on their future, and unfortunately for them, Putin smells blood in the water. Soon after, Russian media are talking up the need to acquire Crimea."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21420,
+        "fields": {
+            "answer": 21419,
+            "candidate": 201,
+            "answer_feedback": "During your heated exchange with Angle, she lets her horrid tongue slip into the mud. She claims you're \"un-American,\" and when you press her for an explanation, she quickly ducks back, rephrasing it for policy, not the usual birtherism you've come to expect."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21424,
+        "fields": {
+            "answer": 21423,
+            "candidate": 201,
+            "answer_feedback": "You lit a fire in her belly, and she responded, claiming \"the Clark stimulus didn't stimulate anything besides more government and debt!\" The rest of the debate is divided by liberal and conservative economic solutions, for which you eloquently deliver the case for."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21428,
+        "fields": {
+            "answer": 21427,
+            "candidate": 201,
+            "answer_feedback": "Angle plants her feet in the side of the End The Fed movement, chastising your party for starting the very recession you claim to have defeated, instead of choosing to survive with the bare minimum, polls side with instability in hopes that it is the change you claim to deliver."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21433,
+        "fields": {
+            "answer": 21432,
+            "candidate": 201,
+            "answer_feedback": "In response to your vigorous defense of American labor, Angle retorts, \"People are unemployed because they want to be.\" Blaming the American workforce, she claims that if we were to rid the country of welfare, the quality of the working class would \"skyrocket.\" Safe to say you've beaten her on this easily."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21437,
+        "fields": {
+            "answer": 21436,
+            "candidate": 201,
+            "answer_feedback": "Angle threads the needle between the racist border hawks at the southern border and the workers of America, worried for their job security, who feel illegal immigrants have stolen what is rightfully theirs. She screams, \"We The People Deserve Our Birthrights,\" effectively running circles around you."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21441,
+        "fields": {
+            "answer": 21440,
+            "candidate": 201,
+            "answer_feedback": "The second amendment remedy that Angle once endorsed remains a stormy cloud over her long history of rhetorical insanity. She admits that her words were \"a bit strong\" and backpedals to taking pot shots at the Clark Administration cronies who \"created an America where the stakes are often that high.\""
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21461,
+        "fields": {
+            "answer": 21460,
+            "candidate": 201,
+            "answer_feedback": "Playing for middle America might have been working magic for Clinton or Clark. Still, the Democratic coalition has changed drastically, and these independents you seek are few and far between in your journey for the White House."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21469,
+        "fields": {
+            "answer": 21468,
+            "candidate": 201,
+            "answer_feedback": "Yulia, in turn, holds a conference with representatives from both regions, who primarily have concerns based on economic and cultural divisions. Although the talks do not come to an immediate conclusion, they end on a positive note.\n"
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21473,
+        "fields": {
+            "answer": 21472,
+            "candidate": 201,
+            "answer_feedback": "-And crack down she does, but unlike your or Clark's expectations, Russia rams into Ukraine like a bull, citing the need to \"defend ethnic Russians from persecution.\" Tymoshenko finds her country under invasion while you head back to the campaign."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21477,
+        "fields": {
+            "answer": 21476,
+            "candidate": 201,
+            "answer_feedback": "Ukraine's entire top brass is left scuttled after your flip-flop on their future, and unfortunately for them, Putin smells blood in the water. Soon after, Russian media are talking up the need to acquire Crimea."
+        }
     }
 ]
 
@@ -13517,9 +14174,6 @@ campaignTrail_temp.jet_data = [{
 
 
 
-
-
-
 e.cyoa = true
 var Win = 0;
 var Pop = 0;
@@ -13530,13 +14184,13 @@ var Walker = 0;
 var Angle = 0;
 var Obama = 0;
 var Brown = 0;
-e.VPisCandidate = 0;
+var Lamont = 0;
 e.noCounter = 0
 
 e = campaignTrail_temp
 
 
-campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/VRoML2J.png';
+campaignTrail_temp.candidate_image_url = 'https://i.imgur.com/e6jIxM2.png';
 campaignTrail_temp.running_mate_image_url = 'https://i.imgur.com/UnS3JMK.png';
 campaignTrail_temp.candidate_last_name = '';
 campaignTrail_temp.running_mate_last_name = '';
@@ -13559,6 +14213,38 @@ function updateQuestions(mutationList, observer) {
     }
 }
 
+e.VPisCandidate = 0;
+function updateQuestionBanner() {
+    let questionBanner = document.getElementById("campaign_sign");
+    if (!questionBanner || questionBanner.nodeName != "DIV") return;
+    let img = document.createElement('img');
+    if(e.VPisCandidate == 0)
+    {
+        img.src = 'https://i.imgur.com/qG6zAUc.gif';
+        img.width = 280; // Adjust the width as needed
+        img.height = 105; // Adjust the height as needed
+    } 
+    if(Lamont == 1)
+    {
+        img.src = 'https://i.imgur.com/TKWvGst.gif';
+        console.log("banner change success");
+    }
+    if(Brown == 1)
+    {
+        img.src = 'https://i.imgur.com/jTcalrM.gif';
+        console.log("banner change success");
+    }
+    if(Obama == 1)
+    {
+        img.src = 'https://i.imgur.com/jTcalrM.gif';
+        console.log("banner change success");
+    }
+    questionBanner.replaceWith(img);
+}
+
+// Initial update
+updateQuestionBanner();
+
 //mary coloor
 function switcheroo1() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(201)
@@ -13570,13 +14256,13 @@ function switcheroo2() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(201)
     e.candidate_json[id].fields.first_name = "Mary"
     e.candidate_json[id].fields.last_name = "Landrieu"
-    e.candidate_json[id].fields.color_hex = "#4a4092" 
+    e.candidate_json[id].fields.color_hex = "#3f687c" 
 }
 function switcheroo3() {
     var id = e.candidate_json.map(p=>p.pk).indexOf(201)
     e.candidate_json[id].fields.first_name = "Mary"
     e.candidate_json[id].fields.last_name = "Landrieu"
-    e.candidate_json[id].fields.color_hex = "#3f687c" 
+    e.candidate_json[id].fields.color_hex = "#4a4092" 
 }
 //david coloor
 function switcheroo11() {
@@ -13790,6 +14476,11 @@ cyoAdventure = function(a) {
         Brown += 1;
     }
 
+    //ned
+    if (ans == 5155 || ans == 20930 || ans == 20944) {
+        Lamont += 1;
+    }
+
     if (e.noCounter == 3) {
         if (Win > 1 && Pop > 2 || Win > 1 && Bi > 2) {
             campaignTrail_temp.questions_json[3] = tunnel(20963); 
@@ -13805,10 +14496,10 @@ cyoAdventure = function(a) {
             switcheroo1();
         }
         else if (Brown == 1) {
-            switcheroo3();
+            switcheroo2();
         }
         else if (Obama == 1) {
-            switcheroo2();
+            switcheroo3();
         }
     }
 
@@ -13829,6 +14520,12 @@ cyoAdventure = function(a) {
             Walker += 1
             switcheroo12();
 
+        }
+    }
+
+    if (e.noCounter == 16) {
+        if ((e.player_answers.includes(5262))) {
+            campaignTrail_temp.questions_json[16] = tunnel(21467); 
         }
     }
 
@@ -13859,6 +14556,12 @@ cyoAdventure = function(a) {
         }
         else if (Angle == 1) {
             campaignTrail_temp.questions_json[19] = tunnel(21197); 
+        }
+        else if (Angle == 1 && Obama == 1) {
+            campaignTrail_temp.questions_json[19] = tunnel(21418); 
+        }
+        else if (Angle == 1 && Brown == 1) {
+            campaignTrail_temp.questions_json[19] = tunnel(21431); 
         }
         else if (Ayotte == 1 && Obama == 1) {
             campaignTrail_temp.questions_json[19] = tunnel(21244); 
