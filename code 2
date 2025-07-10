@@ -484,6 +484,24 @@ campaignTrail_temp.questions_json = [
             "description": "A storm has arisen as one of the most severe that anybody has ever witnessed in the northeast. Hurricane Sandy, a category 5 Hurricane, barrels its way through the eastern seaboard, ripping apart towns and cities that you swore to protect. Clark encourages you to get out there and capitalize on the moment, but you've tasked it upon yourself to fight for aid, fight for them as they fought for your home-torn Louisiana after Katrina. With Senator Arlen Specter dying from cancer last month, the Democrats' mandate has shrunk even further. How will you brush your experience presiding over these Senate walls to help those in need?",
             "likelihood": 1
         }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 21726,
+        "fields": {
+            "priority": 7,
+            "description": "The American left's distrust of you has never been more apparent than in the success of the Green Party nominee Cynthia McKinney. Your foreign policy goals, the vote on the Patriot Act —it's all coming back. They plot to mislead you, send you in the wrong direction; they don't want you to enter the castle. That's all they say: four years of pain for a chance to make gains so they can reign. You can try to campaign or toss them in the drain. What will it be?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 21746,
+        "fields": {
+            "priority": 7,
+            "description": "The American left's distrust of you has never been more apparent than in the success of the Green Party nominee Cynthia McKinney. Your foreign policy goals, the vote on the Patriot Act —it's all coming back. They plot to mislead you, send you in the wrong direction; they don't want you to enter the castle. That's all they say: four years of pain for a chance to make gains so they can reign. You can try to campaign or toss them in the drain. What will it be?",
+            "likelihood": 1
+        }
     }
 ]
 
@@ -822,14 +840,6 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 1068,
             "description": "Post-partisan? Half of the Republican Party's marketing is labeling me a pig, and he wants to act like Mr. bipartisanship? No, we have a base that is tired of playing nice with the other side, so let's squeeze them for what they are worth."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 5235,
-        "fields": {
-            "question": 1069,
-            "description": "Petraeus has dropped off the face of the planet, and in his place, they send his second in command? Kelly Ayotte can't stand for such disgraceful behavior on his part. She's defenseless against the roaring right flank; turn up the gas on her."
         }
     },
     {
@@ -1878,6 +1888,70 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 20721,
             "description": "Well, the general cornered himself in his struggle to fend off the crazies in his party. Let him stew in it while we hammer Sharron's selection. She'd a nutcase, well beyond the electorate's appetite."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21727,
+        "fields": {
+            "question": 21726,
+            "description": "There's no area in which I can get them to agree with my foreign policy. However, if we aim for something bold, the gains are likely to follow. The Clean Air Plan was only the beginning. I will lead the charge on climate change negotiations both here and abroad."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21731,
+        "fields": {
+            "question": 21726,
+            "description": "Why not try to go the other way? These folks seem to have it out for me, but there are plenty of votes to be found by promising an end to fracking and expanding American domestic oil prospects to lower gas costs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21736,
+        "fields": {
+            "question": 21726,
+            "description": "I've never been one to believe the myths of 2000 and how Nader's performance spoiled Gore's chances. The green party will be no issue, and I see no reason to further pander to my left flank than we already have done."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21741,
+        "fields": {
+            "question": 21726,
+            "description": "Sherrod is a darling to these folks; have him step into the ring with them, and he can ease the tension by his record alone. Get them all in line behind me so we can focus on the enemy, Petraeus."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21747,
+        "fields": {
+            "question": 21746,
+            "description": "There's no area in which I can get them to agree with my foreign policy. However, if we aim for something bold, the gains are likely to follow. The Clean Air Plan was only the beginning. I will lead the charge on climate change negotiations both here and abroad."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21751,
+        "fields": {
+            "question": 21746,
+            "description": "Why not try to go the other way? These folks seem to have it out for me, but there are plenty of votes to be found by promising an end to fracking and expanding American domestic oil prospects to lower gas costs."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21756,
+        "fields": {
+            "question": 21746,
+            "description": "I've never been one to believe the myths of 2000 and how Nader's performance spoiled Gore's chances. The green party will be no issue, and I see no reason to further pander to my left flank than we already have done."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 21761,
+        "fields": {
+            "question": 21746,
+            "description": "Governor Obama is the bridge between me and these voters. He speaks to them better than I ever could. Get him out there, reinvigorating hope for our people."
         }
     }
 ]
@@ -7487,7 +7561,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5189,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.08
         }
     },
     {
@@ -7537,7 +7611,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5191,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.08
         }
     },
     {
@@ -7747,7 +7821,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5221,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.015
+            "global_multiplier": 0.004
         }
     },
     {
@@ -7757,7 +7831,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5190,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.08
         }
     },
     {
@@ -7927,7 +8001,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20840,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.002
         }
     },
     {
@@ -7947,7 +8021,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20845,
             "candidate": 201,
             "affected_candidate": 201,
-            "global_multiplier": 0.015
+            "global_multiplier": 0.008
         }
     },
     {
@@ -8652,16 +8726,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 21357,
-        "fields": {
-            "answer": 5235,
-            "candidate": 201,
-            "affected_candidate": 200,
-            "global_multiplier": -0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 21358,
         "fields": {
             "answer": 5236,
@@ -9059,6 +9123,146 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 200,
             "global_multiplier": -0.035
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21729,
+        "fields": {
+            "answer": 21727,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21733,
+        "fields": {
+            "answer": 21731,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21734,
+        "fields": {
+            "answer": 21731,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21738,
+        "fields": {
+            "answer": 21736,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21739,
+        "fields": {
+            "answer": 21736,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21743,
+        "fields": {
+            "answer": 21741,
+            "candidate": 201,
+            "affected_candidate": 200,
+            "global_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21744,
+        "fields": {
+            "answer": 21741,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21749,
+        "fields": {
+            "answer": 21747,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21753,
+        "fields": {
+            "answer": 21751,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21754,
+        "fields": {
+            "answer": 21751,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21758,
+        "fields": {
+            "answer": 21756,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21759,
+        "fields": {
+            "answer": 21756,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21763,
+        "fields": {
+            "answer": 21761,
+            "candidate": 201,
+            "affected_candidate": 201,
+            "global_multiplier": 0.004
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 21764,
+        "fields": {
+            "answer": 21761,
+            "candidate": 201,
+            "affected_candidate": 203,
+            "global_multiplier": -0.4
+        }
     }
 ]
 
@@ -9341,16 +9545,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 103,
             "issue_score": 0.6,
             "issue_importance": 3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2891,
-        "fields": {
-            "answer": 5235,
-            "issue": 104,
-            "issue_score": -0.75,
-            "issue_importance": 2
         }
     },
     {
@@ -10791,6 +10985,86 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 103,
             "issue_score": 0.8,
             "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21730,
+        "fields": {
+            "answer": 21727,
+            "issue": 104,
+            "issue_score": 0.9,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21735,
+        "fields": {
+            "answer": 21731,
+            "issue": 102,
+            "issue_score": -0.8,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21740,
+        "fields": {
+            "answer": 21736,
+            "issue": 103,
+            "issue_score": 0.3,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21745,
+        "fields": {
+            "answer": 21741,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21750,
+        "fields": {
+            "answer": 21747,
+            "issue": 104,
+            "issue_score": 0.9,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21755,
+        "fields": {
+            "answer": 21751,
+            "issue": 102,
+            "issue_score": -0.8,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21760,
+        "fields": {
+            "answer": 21756,
+            "issue": 103,
+            "issue_score": 0.3,
+            "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 21765,
+        "fields": {
+            "answer": 21761,
+            "issue": 102,
+            "issue_score": 0.8,
+            "issue_importance": 5
         }
     }
 ]
@@ -15570,15 +15844,6 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 2718,
-        "fields": {
-            "answer": 5235,
-            "candidate": 201,
-            "answer_feedback": "Petraeus continues to hide in a bunker whilst you hammer his running mate for misgivings Republicans hadn't thought would be brought against the ticket. Petraeus was the calm and cool face, but now his scandals are untenable with the right, and Ayotte does nothing to change that."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 2719,
         "fields": {
             "answer": 5236,
@@ -16656,6 +16921,78 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 201,
             "answer_feedback": "From calling for a civil war if she had lost her Senate race, a full ban on abortion in all cases, and racial gaffes, you repeat the steps of the Reid campaign's defense. Advisors are deathly afraid that the general public won't care, but you are determined."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21728,
+        "fields": {
+            "answer": 21727,
+            "candidate": 201,
+            "answer_feedback": "This surely takes the wind out of the fringe sails, but at the cost of whatever ground you hoped to make in coal country and the South. Conservatives loathe climate preaching."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21732,
+        "fields": {
+            "answer": 21731,
+            "candidate": 201,
+            "answer_feedback": "Not a fan of threading the needle? The Green Party continues to rise in the polls, which only serves to vindicate its message that the two-party system doesn't prioritize the environment."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21737,
+        "fields": {
+            "answer": 21736,
+            "candidate": 201,
+            "answer_feedback": "Environmentalists know your record all too well, and they may just be daring enough to stake their bets with the Greens over a Democrat favoring more oil pipelines and letting corporations sack the planet with carbon emissions."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21742,
+        "fields": {
+            "answer": 21741,
+            "candidate": 201,
+            "answer_feedback": "Sherrod cares for the working man first and foremost, promising to combat climate change while not sacrificing jobs to China. The left isn't pleased with the compromise and demands bolder action, which he is unwilling to deliver on."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21748,
+        "fields": {
+            "answer": 21747,
+            "candidate": 201,
+            "answer_feedback": "This surely takes the wind out of the fringe sails, but at the cost of whatever ground you hoped to make in coal country and the South. Conservatives loathe climate preaching."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21752,
+        "fields": {
+            "answer": 21751,
+            "candidate": 201,
+            "answer_feedback": "Not a fan of threading the needle? The Green Party continues to rise in the polls, which only serves to vindicate its message that the two-party system doesn't prioritize the environment."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21757,
+        "fields": {
+            "answer": 21756,
+            "candidate": 201,
+            "answer_feedback": "Environmentalists know your record all too well, and they may just be daring enough to stake their bets with the Greens over a Democrat favoring more oil pipelines and letting corporations sack the planet with carbon emissions."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 21762,
+        "fields": {
+            "answer": 21761,
+            "candidate": 201,
+            "answer_feedback": "Barack speaks in vague platitudes but his words electrify crowds while not promising a single damn thing. The base undergoes Barack Obama fever as he develops a personality cult dwarfing your star power.\n"
+        }
     }
 ]
 
@@ -17030,6 +17367,15 @@ cyoAdventure = function(a) {
             Walker += 1
             switcheroo12();
 
+        }
+    }
+
+    if (e.noCounter == 9) {
+        if (Brown == 1) {
+            campaignTrail_temp.questions_json[9] = tunnel(21726); 
+        }
+        if (Obama == 1) {
+            campaignTrail_temp.questions_json[9] = tunnel(21746); 
         }
     }
 
