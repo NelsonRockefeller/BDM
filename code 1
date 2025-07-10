@@ -96,8 +96,8 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 202,
         "fields": {
-            "first_name": "Christian  ",
-            "last_name": "Paranoid Maniacs",
+            "first_name": "Gary",
+            "last_name": "Johnson",
             "election": 20,
             "party": "Libertarians",
             "state": "N/A",
@@ -308,7 +308,7 @@ jet_data = {
     "containerColor": "#151113",
     "innerWindowColor": "#151113",
     "bannerImageUrl": "https://i.imgur.com/sRcoa8R.gif",
-    "backgroundImageUrl": "https://i.imgur.com/eIY0feb.gif",
+    "backgroundImageUrl": "https://i.imgur.com/uy9ZNjv.gif",
     "endingTextColor": "#000000",
     "customQuote": "",
     "gameTitle": "The Ballot Of Blue Dog Mary"
@@ -332,7 +332,7 @@ $(".container")[0].style.backgroundColor = "#151113";
 
 document.getElementById("header").src = "https://i.imgur.com/sRcoa8R.gif";
 
-document.body.background = "https://i.imgur.com/eIY0feb.gif";
+document.body.background = "https://i.imgur.com/uy9ZNjv.gif";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#151113!important;}</style>";
 
