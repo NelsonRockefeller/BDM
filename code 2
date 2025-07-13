@@ -11177,7 +11177,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 1008,
             "candidate": 201,
             "affected_candidate": 201,
-            "state_multiplier": 0.09
+            "state_multiplier": 0.009
         }
     },
     {
@@ -17148,6 +17148,7 @@ campaignTrail_temp.jet_data = [{
 
 
 
+
 e.cyoa = true
 var Win = 0;
 var Pop = 0;
@@ -17375,6 +17376,7 @@ e.vpSwitcher = () => {
         }
 
         if(e.running_mate_last_name ==="Brown"){
+        vpTable["Mary Landrieu"] = "Sherrod Brown";
         campaignTrail_temp.questions_json[4] = {
             "model": "campaign_trail.question",
             "pk": 20720,
@@ -17387,6 +17389,7 @@ e.vpSwitcher = () => {
         }
 
         if(e.running_mate_last_name ==="Obama"){
+        vpTable["Mary Landrieu"] = "Barack Obama";
         campaignTrail_temp.questions_json[4] = {
             "model": "campaign_trail.question",
             "pk": 20719,
@@ -17487,6 +17490,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[5] = tunnel(20721); 
             Angle += 1
             switcheroo13();
+            vpTable["David Petraeus"] = "Sharron Angle";
 
         }
         else if (Pop < 3) {
@@ -17498,6 +17502,7 @@ cyoAdventure = function(a) {
             campaignTrail_temp.questions_json[5] = tunnel(21101); 
             Walker += 1
             switcheroo12();
+            vpTable["David Petraeus"] = "Scott Walker";
 
         }
     }
